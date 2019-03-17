@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="421.81" Width="800">
+    <Grid>
+        <Button x:Name="Timer1" Content="Start" HorizontalAlignment="Left" Height="100" Margin="65,126,0,0" VerticalAlignment="Top" Width="164" Click="Button_Click" RenderTransformOrigin="0.281,0.377" FontSize="25"/>
+        <Label x:Name="Label1" Content="00:00:00.000" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="255,139,0,0" Height="69" Width="276" FontSize="48" Cursor="None"/>
+        <Button x:Name="Reset1" Content="Reset" HorizontalAlignment="Left" Height="100" Margin="558,126,0,0" VerticalAlignment="Top" Width="164" Click="ButtonReset_Click" RenderTransformOrigin="0.281,0.377" FontSize="25" IsEnabled="False"/>
+
+    </Grid>
+</Window>
