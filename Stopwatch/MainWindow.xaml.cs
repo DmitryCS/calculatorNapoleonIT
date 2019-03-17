@@ -33,6 +33,7 @@ namespace WpfApp1
                 Timer1.Content = "Stop";
                 timer.Enabled = true;
                 Reset1.IsEnabled = false;
+                date = new DateTime(DateTime.Now.Ticks - TimeSpan.Parse(Label1.Content.ToString()).Ticks);
             }
             else
             {
